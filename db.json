@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My first post",
+      "content": "This is my first post"
+    },
+    {
+      "id": 2,
+      "title": "My second post",
+      "content": "This is my second post"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "email": "YUf6t@example.com"
+    }
+  ]
+}

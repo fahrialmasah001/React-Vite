@@ -1,16 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Filter from "./components/Filter";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Table from "./components/Table";
+import SignOut from "./pages/SignOut";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <p>walled</p>
-    </>
-  )
+    <main>
+      <Navbar />
+      <Hero />
+      <Filter />
+      <Table />
+    </main>
+  );
 }
 
-export default App
+export default App;
+
